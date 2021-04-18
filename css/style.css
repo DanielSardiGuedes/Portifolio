@@ -22,6 +22,27 @@ main {
     margin-top: 5px;
 }
 
+h1 {
+    text-align: center;
+    color: #265480;
+    font-size: 26px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #6b4302;
+}
+
+.foto-de-perfil {
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 4px;
+
+}
+
+
 @media screen and (min-width:641px) {
     .mobile > p > a {
         display: none ;
@@ -31,7 +52,7 @@ main {
 @media screen and (max-width:640px) {
     main {
         transition: 0.5s;
-        width: 96%;
+        width: 95%;
         right: 100%;
     }
 }
@@ -39,5 +60,5 @@ main {
 
 
 .lista-redes-sociais {
-
+    
 }
