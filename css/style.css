@@ -22,6 +22,12 @@ main {
     margin-top: 12px;
 }
 
+hr {
+    color: rgba(0, 0, 0, 0.199);
+    width: 95%;
+    margin: auto;
+}
+
 h1 {
     text-align: center;
     color: #265480;
