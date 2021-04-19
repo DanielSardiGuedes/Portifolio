@@ -20,6 +20,7 @@ main {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.432);
     padding: 10px;
     margin-top: 12px;
+    margin-bottom: 11px;
 }
 
 hr {
@@ -60,7 +61,7 @@ h2 {
         transition: 0.5s;
         width: 90%;
         right: 100%;
-        margin-bottom: 11px;
+
     }
 
     article > ol {
