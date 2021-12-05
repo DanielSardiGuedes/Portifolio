@@ -31,7 +31,7 @@
 <body>
     <main>
         <header>
-            <h1>Redes Sociais</h1>
+            <h1>Meu Portifólio</h1>
         </header>
 
         <br>
@@ -41,12 +41,47 @@
                 alt="Foto de Perfil do Portifólio" class="foto-de-perfil">
             
 
+            <br>
+            <h2>Quem sou ?</h2>
+            <br>
+
+            <p class="descricao">Meu nome é <strong>Daniel Sardi Guedes</strong>. Trabalho com <strong>Protese Dentaria</strong>, e meu objetivo é ajudar na saudade e na estética das pessoas.</p>
         </article>
 
-
- 
         <br>
+        <hr>
+        <br>
+        <article>
+            <h2>Cetificados</h2>
+        <br>
+            <ol class="lista-redes-sociais">
+                <li>
+                    <p>*</p>
+                </li>
+                
 
+                <li>
+                    <p>*</p>
+                </li>
+
+                <li>
+                    <p>*</p>
+                </li>
+
+                <li>
+                    *
+                </li>
+
+                <li>
+                    *
+                </li>
+
+                <li>
+                    *
+                </li>
+                <!--Fim da Lista-->
+            </ol>
+        </article>
         <br>
         <hr>
         <br>
