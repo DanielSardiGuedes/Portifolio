@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Portifólio Daniel Daniel Sardi Guedes Técnico em Prótese Dentária, Gamer e Empreendedor">
+    <meta property="og:image" content="img/logo grande.png">
+    <title>Daniel Sardi Guedes</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+
+        function share() {
+            if (navigator.share !== undefined) {
+                navigator.share({
+                    title: 'Portifólio Daniel Sardi Guedes',
+                    text: 'Gestor de Trafégo e Desenvolvedor de Sites',
+                    url: 'https://danielsardiguedes.github.io/Portifolio/',
+                })
+                    .then(() => console.log('Successful share'))
+                    .catch((error) => console.log('Error sharing', error));
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Redes Sociais</h1>
+        </header>
+
+        <br>
+
+        <article>
+            <div class="foto">
+            <img src="img/Captura de tela 2021-12-05 131648.png"
+                alt="Foto de Perfil do Portifólio" width="175px"  class="foto-de-perfil">
+            </div>
+         </article>
+        <br>
+        <hr>
+        <br>
+        <article>
+            <h2>Como Falar Comigo?</h2>
+            
+            <br>
+            
+            <div style="text-align: center;">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/tAjbOJBfk5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </article>
+        <article>
+            <br>
+            <!--Não Pronto Share Mobile-->
+
+            <div style="text-align:center" class="mobile">
+                <p>
+                    <a href="javascript:void(0)" onclick="share()">
+                        <img width="30" height="30" src="https://ayltoninacio.com.br/img/s/21w50.jpg" alt="">
+                        <br>
+                    </a>
+                    <p>Compartilhe</p>
+                </p>
+            </div>
+            <!--Não Pronto Share Mobile-->
+
+            <p style="text-align: center; text-shadow: 0.3px 0.3px 0.5px;">
+                <br>
+
+                Copyright &copy; 2021 Daniel Sardi Guedes
+            </p>
+        </article>
+    </main>
+</body>
+
+</html>
